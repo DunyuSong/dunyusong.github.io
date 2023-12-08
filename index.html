@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="utf-8">
+    <title>Notion Converter - 一键排版微信公众号文章</title>
+    <meta name="description"
+          content="Notion Converter是一款专业高效的chrome插件，可以将Notion文章一键排版，并转换为微信公众号文章，拥有多种主题可以选择，同时还支持复制到Markdown.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Notion Converter - 专业的Notion到微信公众号的排版工具">
+    <meta property="og:description"
+          content="Notion Converter是一款专业高效的chrome插件，可以将Notion文章一键排版，并转换为微信公众号文章，拥有多种主题可以选择，同时还支持复制到Markdown..">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Notion Converter - 专业的Notion到微信公众号的排版工具">
+    <meta name="twitter:description"
+          content="Notion Converter是一款专业高效的chrome插件，可以将Notion文章一键排版，并转换为微信公众号文章，拥有多种主题可以选择，同时还支持复制到Markdown.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&amp;family=IBM+Plex+Sans:wght@300;400;500;600;700&amp;family=Heebo:wght@300;400;500;600;700&amp;family=Arimo:wght@300;400;500;600;700&amp;display=swap"
+          as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link
+                href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Heebo:wght@300;400;500;600;700&family=Arimo:wght@300;400;500;600;700&display=swap"
+                rel="stylesheet"
+        />
+    </noscript>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/1b18993a9f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header class="max-w-[1220px] flex m-auto items-center gap-4 px-6 pt-8">
+    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/N.png" class="w-[30px]"/>
+    <p class="text-2xl font-bold">Notion Converter</p>
+</header>
+<section class="code-section overflow-hidden font-['IBM_Plex_Sans']" id="fwmz9q">
+    <div
+            class="relative mx-auto flex max-w-[1218px] flex-col items-center px-6 pb-28 pt-10 lg:flex-row lg:items-end lg:justify-between">
+        <div class="relative z-20 mx-auto flex max-w-2xl flex-col items-center md:mx-0 md:items-start">
+            <div
+                    class="lg:texl-lg inline-flex items-center gap-3 rounded-full bg-gray-100 p-1.5 pr-4 font-medium md:gap-4 md:pr-7 xl:text-xl">
+                <p id="hero-message-badge-header" class="rounded-full bg-gray-950 px-2 py-1 leading-9 text-white md:px-5">
+                    重塑排版
+                </p>
+                <p id="hero-message-badge-text" class="max-w-[260px]">重新定义你的公众号文章 🙌</p>
+            </div>
+            <h1 id="hero-header" class="pb-6 pt-8 text-center text-3xl font-bold md:text-left lg:text-5xl xl:text-7xl">
+                公众号排版的革新
+            </h1>
+            <p id="hero-subtext" class="pb-10 text-center text-xl opacity-60 md:text-left lg:text-2xl lg:leading-10">
+                搭配精彩的模板，一键将Notion内容复制为公众号格式、<br/>或复制为Markdown文本。</p>
+            </p>
+        </div>
+        <svg class="absolute bottom-10 left-48 z-0 hidden lg:block" width="1044" height="140" viewBox="0 0 1044 140"
+             fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.00006 44.5C88.6667 84.3333 354.9 157.3 546.5 44.4999C738.1 -68.3001 957.833 73.3333 1042 138"
+                  stroke="#E9E9E9" stroke-width="3" stroke-linecap="round" stroke-dasharray="20 20"></path>
+        </svg>
+    </div>
+    <img
+            class="high-res-image seo-image absolute right-40 top-24 z-10 hidden object-cover object-right-top lg:block"
+            width="550"
+            src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/header.png"
+            alt="hero"/>
+    <div class="flex gap-20 mx-[10vw] xl:mx-[18.5vw] flex-wrap xl:w-[700px] w-auto">
+        <div class="text-white grow shrink-0 max-[1024px]:basis-full lg:basic-auto">
+            <div class="flex items-center gap-4 bg-gradient-to-tr from-yellow-700 to-green-700 p-4 rounded">
+                <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/chromeicon.svg"
+                     class="w-12 h-12" alt="">
+                <a class="flex gap-2 items-center" href="http://localhost" target="_blank">
+                    <div class="text-sm">从 Chrome 商店安装</div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+        <div class="text-white grow shrink-0 max-[1024px]:basis-full lg:basic-auto">
+            <div target="_blank" class="flex items-center gap-4 bg-gradient-to-tr from-blue-700 to-green-700 p-4 rounded"
+                 href="">
+                <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/edgeicon.svg"
+                     class="w-12 h-12" alt="">
+                <a class="flex gap-2 items-center" href="http://localhost" target="_blank">
+                    <div class="text-sm">从 Edge 商店安装</div>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="download-section"
+         class="code-section relative py-20 font-['IBM_Plex_Sans'] lg:py-24 max-w-[1220px] m-auto px-6">
+</section>
+<section class="code-section mx-auto max-w-[1220px] px-6 pb-16 font-['IBM_Plex_Sans']" id="nrvsv">
+    <div class="items-center justify-between gap-10 pb-12 md:flex">
+        <h1
+                class="flex flex-col items-center justify-center space-x-2 pb-8 text-2xl font-semibold sm:flex-row lg:text-4xl xl:text-5xl">
+            <span id="features-header-beginning">体验</span>
+            <span id="features-header-word"
+                  class="inline-block rounded-full bg-[#07C160] px-8 py-2 text-2xl text-white">无缝</span>
+            <span id="features-header-end">排版</span>
+        </h1>
+    </div>
+    <div class="grid gap-6 md:grid-cols-3">
+        <div class="rounded-xl bg-gray-100 p-4">
+            <img class="h-40 w-full rounded-xl object-cover lg:h-52"
+                 src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/1.gif"/>
+            <button class="-mt-8 ml-auto mr-5 flex">
+                <div
+                        class="relative z-10 flex h-10 w-10 flex-none items-center justify-center rounded-full text-2xl text-white lg:h-16 lg:w-16">
+                </div>
+            </button>
+            <h3 id="portfolio-1-header" class="pb-3 text-2xl font-medium lg:text-3xl">快速</h3>
+            <p id="portfolio-1-text" class="max-w-[260px] leading-9 opacity-60 lg:text-lg xl:text-xl">
+                无需复杂的步骤，只需一键点击，你就能实现排版。</p>
+        </div>
+        <div class="rounded-xl bg-gray-100 p-4">
+            <img class="h-40 w-full rounded-xl object-cover lg:h-52"
+                 src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/2.gif"/>
+            <button class="-mt-8 ml-auto mr-5 flex">
+                <div
+                        class="relative z-10 flex h-10 w-10 flex-none items-center justify-center rounded-full text-2xl text-white lg:h-16 lg:w-16">
+                </div>
+            </button>
+            <h3 id="portfolio-2-header" class="pb-3 text-2xl font-medium lg:text-3xl">美观</h3>
+            <p id="portfolio-2-text" class="max-w-[260px] leading-9 opacity-60 lg:text-lg xl:text-xl">
+                我们提供多种主题供你选择，总有一种适合你的需要。</p></div>
+        <div class="rounded-xl bg-gray-100 p-4">
+            <img class="h-40 w-full rounded-xl object-cover lg:h-52"
+                 src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/3.gif"/>
+            <button class="-mt-8 ml-auto mr-5 flex">
+                <div
+                        class="relative z-10 flex h-10 w-10 flex-none items-center justify-center rounded-full text-2xl text-white lg:h-16 lg:w-16">
+                </div>
+            </button>
+            <h3 id="portfolio-3-header" class="pb-3 text-2xl font-medium lg:text-3xl">易用</h3>
+            <p id="portfolio-3-text" class="max-w-[260px] leading-9 opacity-60 lg:text-lg xl:text-xl">
+                无论你是新手还是专业人士，我们的插件都能让你轻易上手。
+            </p>
+        </div>
+    </div>
+</section>
+<section class="code-section relative py-20 font-['IBM_Plex_Sans'] lg:py-24" id="ptocx">
+    <div class="mx-auto max-w-[1220px] px-6">
+        <div class="mx-auto flex max-w-sm flex-col items-center lg:mx-0 lg:max-w-xl">
+            <h1 id="testimonials-header"
+                class="pb-5 text-center text-3xl font-semibold lg:pb-7 lg:text-left lg:text-4xl xl:text-5xl">
+                Ta们这样说
+            </h1>
+            <p id="testimonial-quote"
+               class="border-b-2 border-gray-300 pb-7 text-center text-lg opacity-60 lg:text-left lg:text-xl xl:text-2xl xl:leading-10">
+                "插件使用非常便捷，主题很好看，提升效率很明显"</p>
+            <h3 class="pt-7 text-center text-xl font-medium lg:text-left lg:text-2xl xl:text-3xl">
+                <span>公众号 - </span><span id="testimonial-title">独立开发日记</span></h3></div>
+    </div>
+    <div class="relative mt-16 overflow-hidden lg:hidden">
+        <div class="absolute left-1/2 top-28 flex -translate-x-1/2 items-center gap-2">
+            <h1 id="testimonial-number-estimate"
+                class="text-3xl font-semibold">1000+</h1>
+            <p id="testimonial-number-qualifier" class="text-xl font-medium opacity-50">满意的用户</p>
+        </div>
+    </div>
+    <div class="hidden lg:block">
+        <img class="dont-replace absolute right-0 top-0 z-0 w-[500px] xl:w-auto"
+             src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/graphic.svg"
+             alt="">
+        <div class="absolute right-20 top-40 flex rotate-6 items-center gap-2 lg:top-52 xl:right-28 xl:top-60 xl:block"><h1
+                id="testimonial-number-estimate2" class="text-3xl font-semibold lg:text-5xl xl:text-7xl">1000+</h1>
+            <p id="testimonial-number-qualifier2" class="text-xl font-medium opacity-50 lg:text-2xl xl:text-3xl">
+                满意的用户</p></div>
+    </div>
+</section>
+
+<section id="price-section" class="code-section mx-auto max-w-[1220px] px-6 pb-16 font-['IBM_Plex_Sans']">
+    <div class="pb-12">
+        <h1 class="w-full pb-4 text-3xl font-semibold md:pb-0 lg:text-4xl xl:text-5xl text-center">
+            价格
+        </h1>
+    </div>
+    <div class="flex gap-20 text-white flex-wrap">
+        <div class="flex flex-col basis-full lg:flex-auto bg-[#55534E] rounded-xl p-[30px]">
+            <div class="">
+                <h4>免费用户</h4>
+                <h5>0￥</h5>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"/>
+                    <span>字体选择</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"/>
+                    <span>字号大小选择</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"
+                         class=""/>
+                    <span>公众号默认排版</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>公众号会员主题</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>图片预览5张/篇</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>复制为Markdown</span>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col basis-full lg:flex-auto bg-[#07C160] rounded-xl p-[30px]">
+            <div class="">
+                <h4>高级会员</h4>
+                <h5>12.9/月 或 99/年</h5>
+            </div>
+            <div class="flex flex-col gap-2">
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"/>
+                    <span>字体选择</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"/>
+                    <span>字号大小选择</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/yes.svg" width="20"
+                         class=""/>
+                    <span>公众号默认排版</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>公众号会员主题</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>图片预览5张/篇</span>
+                </div>
+                <div class="flex gap-2">
+                    <img src="https://new-notion-1315843248.cos.ap-guangzhou.myqcloud.com/landingpage/no.svg" width="20"/>
+                    <span>复制为Markdown</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <p class="text-center">Copyright@2023 Notion Converter</p>
+</footer>
+</body>
+</html>
